@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!-- style custom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="">Tic Tac Toe</h1>
+    <p>by <span>Ilham Kurniawan</span></p>
+    <div class="skor">
+        <div class="skorx">
+            <h2>Player X :</h2><input type="text" id="x" value="0" disabled>
+        </div>
+        <div class="skory">
+            <h2>Player O :</h2><input type="text" id="o" value="0" disabled>
+        </div>
+    </div>
+    <div class="container">
+        <div class="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <div class="tombol">
+        <button onclick="resetCell()" class="reset">Reset</button>
+    </div>
+    
+    <!-- script sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- script custom -->
+    <script src="script.js"></script>
+</body>
+</html>
